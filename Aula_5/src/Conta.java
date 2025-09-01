@@ -4,10 +4,24 @@ public class Conta {
     private float saldo;
     private float limite;
 
+    public Conta() {
+        this.saldo = 2000;
+        this.numero = 1;
+        this.limite = 5000;
+    }
+
+
     public float getSaldo() {
         return saldo;
     }
 
+    public float getNumero(){
+        return numero;
+    }
+
+    public float getLimite(){
+        return limite;
+    }
     public void setSaldo(float saldo) {
         this.saldo = saldo;
     }

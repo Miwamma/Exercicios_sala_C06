@@ -6,5 +6,8 @@ public class Main{
         conta1.sacar(150);
 
         System.out.println(conta1.getSaldo());
+        System.out.println(conta1.getNumero());
+        System.out.println(conta1.getLimite());
+        
     }
 }
